@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light"
+    android:background="#ff1744"
     android:padding="@android:dimen/app_icon_size"
     android:paddingLeft="@android:dimen/app_icon_size"
     android:paddingTop="@android:dimen/app_icon_size"
@@ -14,39 +14,32 @@
 
     <TextView
         android:id="@+id/companyLogo"
-        android:layout_width="230dp"
-        android:layout_height="79dp"
-        android:background="@android:color/holo_red_light"
-        android:paddingLeft="@android:dimen/app_icon_size"
-        android:paddingRight="@android:dimen/app_icon_size"
+        android:layout_width="343dp"
+        android:layout_height="58dp"
+        android:background="#ff1744"
         android:text="FABCUTS"
         android:textColor="@android:color/background_light"
-        android:textSize="30sp"
-        app:fontFamily="sans-serif"
+        android:textSize="32sp"
+        app:fontFamily="@font/asset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+        app:layout_constraintVertical_bias="0.43" />
 
-    <EditText
-        android:id="@+id/company Tagline"
+    <TextView
+        android:id="@+id/companytagline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@android:dimen/app_icon_size"
-        android:layout_marginTop="4dp"
-        android:layout_marginRight="@android:dimen/app_icon_size"
-        android:background="@android:color/holo_red_light"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:shadowColor="@android:color/holo_red_light"
-        android:text="#NoWaitAnymore"
-        android:textColor="#FFFFFF"
+        android:text="#No wait Anymore!"
+        android:textColor="@android:color/background_light"
         android:textSize="24sp"
-        android:textStyle="@string/app_name"
+        app:fontFamily="@font/copse"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/companyLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/companyLogo"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
